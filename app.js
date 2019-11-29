@@ -31,6 +31,10 @@ class Counter extends React.Component {
     render() {
         return (
             <React.Fragment>
+                <h1>Basic maths</h1>
+                <p>Click any button with a number to see the result of maths operation</p>
+                <p>Click 'reset' button to reset maths result</p>
+                <p>The number of clicks doesn't reset</p>
           {/* button components: */}
                 {/* button for subtraction '10' */}
                 <MathButton             
@@ -86,8 +90,8 @@ const MathButton = (props) => {
 const ResultPanel = (props) => {
     return (
         <React.Fragment>
-            <h1>Click number reached: {props.count}{props.count > 10 ? <span>. <br/>Processor overload!<br/>Stop clicking immediately!</span> : null}</h1>
-            <h1>Result: {props.result}</h1>
+            <h2>Click number reached: {props.count}{props.count > 10 ? <span>. Processor overload! Stop clicking immediately!</span> : null}</h2>
+            <h2>Result: {props.result}</h2>
         </React.Fragment>
     )
 }

@@ -4,14 +4,40 @@ body {
     font-size: 20px;
 }
 
+#root {
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 20px;
+	width: 800px;
+}
+
 h1 {
-    font-style: 30px;
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+	line-height: 16px;
+	text-align: center;
 }
 
 button {
     border: 1px solid grey;
     font-size: 24px;
+    margin: 0 auto;
+    transition-duration: .6s;
 }
 button:hover {
-	background-color: #fff;
+	background-color: #ccc;
+}
+
+span {
+	color: darkred;
 }
