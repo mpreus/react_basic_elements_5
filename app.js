@@ -37,39 +37,41 @@ class Counter extends React.Component {
                 <p>The number of clicks doesn't reset</p>
           {/* button components: */}
                 {/* button for subtraction '10' */}
-                <MathButton             
-                    name="-10"
-                    number="10"
-                    type="subtraction"
-                    click={this.handleMathClick}
-                />
+                <div className="buttonContainer">
+                    <MathButton             
+                        name="-10"
+                        number="10"
+                        type="subtraction"
+                        click={this.handleMathClick}
+                    />
                 {/* button for subtraction '1' */}
-                <MathButton             
-                    name="-1"
-                    number="1"
-                    type="subtraction"
-                    click={this.handleMathClick}
-                />
+                    <MathButton             
+                        name="-1"
+                        number="1"
+                        type="subtraction"
+                        click={this.handleMathClick}
+                    />
                 {/* button for reset the counter */}
-                <MathButton             
-                    name="reset"
-                    type="reset"
-                    click={this.handleMathClick}
-                />
+                    <MathButton             
+                        name="reset"
+                        type="reset"
+                        click={this.handleMathClick}
+                    />
                 {/* button for addition '1' */}
-                <MathButton             
-                    name="+1"
-                    number="1"
-                    type="addition"
-                    click={this.handleMathClick}
-                />
+                    <MathButton             
+                        name="+1"
+                        number="1"
+                        type="addition"
+                        click={this.handleMathClick}
+                    />
                 {/* button for addition '10' */}
-                <MathButton             
-                    name="+10"
-                    number="10"
-                    type="addition"
-                    click={this.handleMathClick}
-                />
+                    <MathButton             
+                        name="+10"
+                        number="10"
+                        type="addition"
+                        click={this.handleMathClick}
+                    />
+                </div>
           {/* result panel component: */}
                 <ResultPanel 
                     count={this.state.count} 

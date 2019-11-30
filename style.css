@@ -1,12 +1,14 @@
 body {
-    margin: 20px;
     font-family: roboto, sans-serif;
     font-size: 20px;
+    margin: 20px;
 }
 
 #root {
-	border: 1px solid grey;
+	background: #FFF2A8;
+	border: 1px solid #333;
 	border-radius: 5px;
+	box-shadow: 4px 4px 4px #666;
 	margin: 0 auto;
 	padding: 20px;
 	width: 800px;
@@ -28,7 +30,13 @@ p {
 	text-align: center;
 }
 
+.buttonContainer {
+	margin: 0 auto;
+	width: 260px;
+}
+
 button {
+    background-color: #fff;
     border: 1px solid grey;
     font-size: 24px;
     margin: 0 auto;
