@@ -1,4 +1,7 @@
 body {
+    background-image: url("WordItOut-word-cloud-4005145.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: roboto, sans-serif;
     font-size: 20px;
     margin: 20px;
